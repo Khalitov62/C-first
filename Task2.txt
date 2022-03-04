@@ -1,0 +1,19 @@
+   int number = Convert.ToInt32(Console.ReadLine());
+            int number2 = Convert.ToInt32(Console.ReadLine());
+            if (number < number2)
+            {
+                Console.WriteLine("Number2 boyukdur number den");
+            }
+            else if (number > number2)
+            {
+                Console.WriteLine("Number boyukdur Number2 den");
+
+            }
+            else
+            {
+                Console.WriteLine("Ededler Beraberdir");
+            }
+
+        }
+
+    }
